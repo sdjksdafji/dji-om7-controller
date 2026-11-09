@@ -1,0 +1,17 @@
+[project]
+name = "om7-test"
+version = "0.1.0"
+description = "Control a DJI Osmo Mobile 7 (OM7 only) gimbal over Bluetooth LE from Python"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE"]
+authors = [
+    { name = "Shuyi W", email = "sdjksdafji@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "bleak>=3.1.0",
+]
+
+[tool.uv]
+package = false
